@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">SimpleSmsMmsExample</string>
+    <string name="title_activity_s_m_s">SMSActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="phone_number">phone number</string>
+    <string name="txt">txt</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="text">text</string>
+    <string name="open_program_send">open Program Send</string>
+    <string name="send_mms">Send MMS</string>
 </resources>

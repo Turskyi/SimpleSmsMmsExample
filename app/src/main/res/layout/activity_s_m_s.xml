@@ -3,13 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:gravity="top"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".SMSActivity">
 
     <EditText
-        android:id="@+id/editTextPhoneNumber"
-        android:layout_width="match_parent"
+        android:id="@+id/edit_phone"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:hint="@string/phone_number"
@@ -18,34 +17,20 @@
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/editTextSmsText"
+        android:id="@+id/edit_sms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="@string/text"
+        android:hint="@string/txt"
         android:inputType="textPersonName"
         android:importantForAutofill="no" />
 
     <Button
-        android:id="@+id/buttonSms"
+        android:id="@+id/sendsms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:onClick="onClick"
         android:text="@string/send_sms" />
-
-    <Button
-        android:id="@+id/buttonSMSActivity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/open_program_send" />
-
-    <Button
-        android:id="@+id/buttonMMS"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/send_mms" />
-
 </LinearLayout>
